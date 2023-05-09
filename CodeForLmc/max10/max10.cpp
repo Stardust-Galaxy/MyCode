@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <climits>
-
 int array[10];
 
 int main()
@@ -11,7 +9,7 @@ int main()
         scanf("%d",&array[i]);
     }
 
-    int max = INT_MIN;
+    int max = array[0];
 
     for(int i = 0;i < 10;i++)
     {
