@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/SpecialColor.dir/SC.cpp.o  -o SpecialColor 

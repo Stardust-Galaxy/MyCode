@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/MyCode/C++test4/P1/main.cpp
+iostream
+-
+thief.h
+/home/ubuntu/MyCode/C++test4/P1/thief.h
+walker.h
+/home/ubuntu/MyCode/C++test4/P1/walker.h
+
+/home/ubuntu/MyCode/C++test4/P1/thief.h
+iostream
+-
+walker.h
+/home/ubuntu/MyCode/C++test4/P1/walker.h
+
+/home/ubuntu/MyCode/C++test4/P1/walker.h
+iostream
+-
+

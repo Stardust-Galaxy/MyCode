@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Card.dir/Card.cpp.o  -o Card 

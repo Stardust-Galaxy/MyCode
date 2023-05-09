@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/marriage.dir/main.cpp.o  -o marriage 

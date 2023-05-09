@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/2Darray.dir/2Darray.cpp.o  -o 2Darray 

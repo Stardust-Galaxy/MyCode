@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Hero.dir/Hero.cpp.o  -o Hero 

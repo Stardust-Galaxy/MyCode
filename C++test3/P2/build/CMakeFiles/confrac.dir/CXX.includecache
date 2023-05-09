@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/MyCode/C++test3/P2/confrac.cpp
+iostream
+-
+confrac.h
+/home/ubuntu/MyCode/C++test3/P2/confrac.h
+
+/home/ubuntu/MyCode/C++test3/P2/confrac.h
+iostream
+-
+math.h
+-
+

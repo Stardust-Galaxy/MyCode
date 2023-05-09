@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/confrac.dir/confrac.cpp.o  -o confrac 

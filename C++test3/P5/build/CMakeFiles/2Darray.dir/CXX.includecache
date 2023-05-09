@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/MyCode/C++test3/P5/2Darray.cpp
+iostream
+-
+2Darray.h
+/home/ubuntu/MyCode/C++test3/P5/2Darray.h
+
+/home/ubuntu/MyCode/C++test3/P5/2Darray.h
+iostream
+-
+

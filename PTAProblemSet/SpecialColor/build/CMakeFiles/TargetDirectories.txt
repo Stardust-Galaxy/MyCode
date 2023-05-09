@@ -1,0 +1,3 @@
+/home/ubuntu/MyCode/PTAProblemSet/SpecialColor/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/MyCode/PTAProblemSet/SpecialColor/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/MyCode/PTAProblemSet/SpecialColor/build/CMakeFiles/SpecialColor.dir

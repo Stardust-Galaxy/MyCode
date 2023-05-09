@@ -1,0 +1,3 @@
+/home/ubuntu/MyCode/C++test2/P6/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/MyCode/C++test2/P6/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/MyCode/C++test2/P6/build/CMakeFiles/Monster.dir

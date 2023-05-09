@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/theft.dir/main.cpp.o  -o theft 
