@@ -1,0 +1,3 @@
+/home/ubuntu/MyCode/C++test4/P8/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/MyCode/C++test4/P8/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/MyCode/C++test4/P8/build/CMakeFiles/Paginate.dir
