@@ -7,7 +7,7 @@ using namespace std;
 class C : private B
 {
 public:
-    C(A* a, int num2, int y):pA(a),B(num2),yyy(y)
+    C(A* a, int num2, int y):pA(new A(*a)),B(num2),yyy(y)
     {
         
     }
