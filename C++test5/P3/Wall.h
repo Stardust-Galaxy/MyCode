@@ -7,10 +7,10 @@ using namespace std;
 class Wall
 {
 public:
-    Wall() :color(0) { cout << "构造一面墙" << endl; }
+    Wall() :color(0) { cout << "Construct a wall." << endl; }
     void Paint(int newColor) {
         color = newColor;
-        cout << "用新颜色粉刷墙" << endl;
+        cout << "Use newcolor to paint the wall." << endl;
     }
     int GetColor() const { return color; }
 private:
