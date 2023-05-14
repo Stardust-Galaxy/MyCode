@@ -1,0 +1,3 @@
+/home/ubuntu/MyCode/C++test5/P2/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/MyCode/C++test5/P2/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/MyCode/C++test5/P2/build/CMakeFiles/main.dir
