@@ -7,23 +7,23 @@ using namespace std;
 class Door
 {
 public:
-    Door() :openOrClose(false) { cout << "构造一扇门" << endl; }
+    Door() :openOrClose(false) { cout << "Create a door" << endl; }
     void Open() {
         if (!IsOpened()) {
             openOrClose = true;
-            cout << "门被打开了" << endl;
+            cout << "The Door is now opened!" << endl;
         }
         else {
-            cout << "门开着呢！" << endl;
+            cout << "The Door is already opened!"<< endl;
         }
     }
     void Close() {
         if (IsOpened()) {
             openOrClose = false;
-            cout << "门被关上了" << endl;
+            cout <<"The Door is shut!" << endl;
         }
         else {
-            cout << "门关着呢！" << endl;
+            cout << "The Door is already closed!" << endl;
         }
     }
     bool IsOpened() const { return openOrClose; }
