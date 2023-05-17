@@ -1,0 +1,19 @@
+1) if remove the virtual in (1), the destruction function of B wouldn't be called
+
+2) if remove the "const" in (6), compliation would be failed. Since the Func1() in B is a newly defined function, you can't initialize an Object of type B with a pointer with type A
+
+3) Func2() use the default value in class A, but execute the function body in class B. The default value go with the static type of the Object
+
+4) you can't change the "protected" at (4) to "private", because then it would be unaccessible for class B
+
+5) No
+
+6) initialize the static member in A
+
+7) No
+
+8) there will be compile time mistake. Since there won't be function body for func1'
+
+9) Func3 is not a member of class A. No
+
+10) Func1(int) is not a member of class A
