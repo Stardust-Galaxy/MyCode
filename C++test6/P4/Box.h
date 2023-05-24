@@ -2,6 +2,10 @@
 
 #include "Fruit.h"
 
+#include "Apple.h"
+
+#include "Orange.h"
+
 using namespace std;
 
 class Box
@@ -18,7 +22,7 @@ public:
 
         totalWeight += fruit->getWeight();
 
-        fruits[total - 1] = fruit;
+        fruits[total++] = fruit;
     }
 
     void pass_one_day()
@@ -26,26 +30,28 @@ public:
         totalshrinkage = 0;
         for(int i = 0;i < total;i++)
         {
-            totalshrinkage += Fruit[i]->shrink();
+            totalshrinkage += fruits[i]->shrink();
         }
 
         totalWeight = 0;
 
         for(int i = 0;i < total;i++)
         {
-            totalWeight += Fruit[i]->getWeight();
+            totalWeight += fruits[i]->getWeight();
         }
+
+        day += 1;
         
     }
     
     int getShrinkage()
     {
-        return totalShrinkage;
+        return totalshrinkage;
     }
 
     int getTotalWeight()
     {
-        return totalWeigh;
+        return totalWeight;
     }
 
     int getAppleAmount()
@@ -64,9 +70,11 @@ public:
 
     void calAmount()
     {
+        apple = orange = 0;
+        
         for(int i = 0;i < total;i++)
         {
-            if(typeid(Fruit[i]) == typeid(Apple))
+            if(typeid(*(fruits[i]->getType())) == typeid(Apple))
                 apple++;
 
             else
@@ -88,4 +96,4 @@ private:
     int totalshrinkage;
 
     Fruit* fruits[8];
-}
+};
