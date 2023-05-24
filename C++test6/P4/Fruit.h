@@ -5,11 +5,16 @@ using namespace std;
 class Fruit
 {
 public:
-    Fruit(int w,int s):weight(w),shrinkage(s)
+    Fruit(int w,int s):weight(w),shrinkage(s),originalweight(w)
     {
         
     }
 
+    virtual Fruit* getType()
+    {
+        return this;
+    }
+    
     void put_in_box()
     {
         inbox = true;
@@ -17,7 +22,8 @@ public:
 
     int shrink()
     {
-        weight -= shrinkage;
+        if(weight > originalweight * 3 / 5)
+            weight -= shrinkage;
 
         return shrinkage;
     }
@@ -31,6 +37,8 @@ public:
 
 private:
     int weight;
+
+    int originalweight;
 
     bool inbox = false;
 
